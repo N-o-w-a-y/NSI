@@ -1,0 +1,30 @@
+#Header{
+	text-align: center;
+	background-color: #869bb4;
+	color: white;
+	font-family: "DejaVu Sans";
+	padding: 1px;
+	margin: -8px;
+	margin-top: -20px;
+}
+#mainHeaderTitle{
+	font-size: 170%;
+}
+#mainHeaderButtons{
+	margin: -3px;
+}
+.button{
+	width: 20%;
+	height: 75px;
+	margin: -3px;
+	border: none;
+	background-color: #76879c ;
+	color: white;
+	font-family:"DejaVu Sans";
+	font-weight: bold;
+	font-size: 150%;
+}
+.button:hover{
+	background-color:  #6f7f93;
+	transition: .4s background-color;
+}
