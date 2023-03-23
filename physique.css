@@ -11,8 +11,12 @@ img
 	display: block;
 	width: 300px;
 }
-li
+li, div
 {
-	width: 800px;
+	width: 700px;
 	text-align: justify;
+}
+
+{
+	
 }
