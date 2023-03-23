@@ -19,5 +19,9 @@ li
 h2
 {
 	background-color: LightGrey;
-	width: 600px;
+	width: 800px;
+}
+h3
+{
+	background-color: LightSlateGray;	
 }
