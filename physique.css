@@ -16,11 +16,6 @@ li
 	width: 800px;
 	text-align: justify;
 }
-h2
-{
-	background-color: LightGrey;
-	width: 800px;
-}
 @font-face {
 	font-family: Open-Sans1;
 	src: url('./ExtraBold.ttf')  format('truetype');
