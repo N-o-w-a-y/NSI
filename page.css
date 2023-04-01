@@ -1,37 +1,30 @@
-@font-face {
-	font-family: Open-Sans1;
-	src: url('./ExtraBold.ttf')  format('truetype');
-}
-@font-face {
-	font-family: Open-Sans2;
-	src: url('./Medium.ttf')  format('truetype');
-}
-
 .box{
-	background-color: #869bb4;
+	background-color: #7B8EA5;
 	color: white;
 	padding: 10px;
+	text-align: justify;
 }
 .title{
-	font-family: 'Open-Sans1';
-	font-size: 30px;
+	font-family: 'DejaVu Sans';
+	font-size: 35px;
+	text-align: center;
 
-	background-color: #76879c;
+	background-color: #6f7f93;
 	padding: 10px;
 	margin: -10px;
 	margin-bottom: 0px;
 }
 .list{
-	font-family: 'Open-Sans2';
+	font-family: 'DejaVu Sans';
 	font-size: 170%;
 }
 .button1{
 	transition: .4s background-color;
 
-	font-family: 'Open-Sans2';
-	font-size: 20px;
+	font-family: 'DejaVu Sans';
+	font-size: 25px;
 
-	background-color: #6f7f93;
+	background-color: #607183;
 	color: white;
 
 	border: none;
@@ -44,7 +37,7 @@
 	transition: .4s background-color;
 }
 p{
-	font-family: 'Open-Sans2';
+	font-family: 'DejaVu Sans';
 	font-size: 170%;
 
 	padding: 15px;
@@ -69,6 +62,6 @@ p{
 .answer{
     font-size:115%;
     text-align: justify;
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:100px;
+    margin-right:100px;
 }

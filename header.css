@@ -1,6 +1,6 @@
 #Header{
 	text-align: center;
-	background-color: #869bb4;
+	background-color: #7B8EA5;
 	color: white;
 	font-family: "DejaVu Sans";
 	padding: 1px;
@@ -19,13 +19,13 @@
 	height: 75px;
 	margin: -3px;
 	border: none;
-	background-color: #76879c ;
+	background-color: #6f7f93;
 	color: white;
 	font-family:"DejaVu Sans";
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 200%;
 }
 .button:hover{
-	background-color:  #6f7f93;
+	background-color:  #607183;
 	transition: .4s background-color;
 }
