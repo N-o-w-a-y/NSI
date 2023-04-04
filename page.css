@@ -1,33 +1,45 @@
+@font-face {
+	font-family: 'Gilroy-L';
+	src: url('Gilroy-Light.otf')  format('truetype');
+}
+@font-face {
+	font-family: 'Gilroy-B';
+	src: url('Gilroy-ExtraBold.otf')  format('truetype');
+}
 body{
-	background-color: #282F32;
+	min-width:1150px;
+	margin: 0px;
+	margin-top: 20px;
+	background-color: #24292E;
 }
 .box{
-	background-color: #7B8EA5;
+	background-color: #536C85;
 	color: white;
 	padding: 10px;
 	text-align: justify;
+	max-height: 500px;
 }
 .title{
-	font-family: 'DejaVu Sans';
+	font-family: 'Gilroy-B';
 	font-size: 35px;
 	text-align: center;
 
-	background-color: #6f7f93;
+	background-color: #415364;
 	padding: 10px;
 	margin: -10px;
 	margin-bottom: 0px;
 }
 .list{
-	font-family: 'DejaVu Sans';
+	font-family: 'Gilroy-L';
 	font-size: 170%;
 }
 .button1{
 	transition: .4s background-color;
 
-	font-family: 'DejaVu Sans';
+	font-family: 'Gilroy-L';
 	font-size: 25px;
 
-	background-color: #607183;
+	background-color: #415364;
 	color: white;
 
 	border: none;
@@ -36,12 +48,16 @@ body{
 	margin-top: 25px;
 }
 .button1:hover{
-	background-color: #5B6A7C;
+	background-color: #475F76;
 	transition: .4s background-color;
 }
+.link, .link:visited{
+	color: #D6EBFF;
+}
 p{
-	font-family: 'DejaVu Sans';
+	font-family: 'Gilroy-L';
 	font-size: 170%;
+	line-height: 40px;
 
 	padding: 15px;
 	margin: -8px;
