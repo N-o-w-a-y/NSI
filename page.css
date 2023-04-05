@@ -86,7 +86,9 @@ p{
 }
 #i2{
 	display: block;
-	eight: 300px;
+	width: 300px ;
+	eight: auto;
+	
 }
 #interlien{
 	color: white;	
