@@ -84,7 +84,8 @@ p{
     margin-left:100px;
     margin-right:100px;
 }
-#i1{
+#i2{
+	display: block;
 	margin-right: 100px;
 }
 #interlien{
