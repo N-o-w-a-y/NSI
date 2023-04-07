@@ -1,48 +1,115 @@
 <!doctype HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Numérique et Sciences Informatique</title>
-        <link rel="stylesheet" href="../header.css">
-        <link rel="stylesheet" href="../page.css">
-    </head>
-    <body>
-        <header id="Header">
-            <div id="mainHeaderTitle">
-                <h1>Numérique et Sciences Informatiques</h1>
+<head>
+    <meta charset="utf-8">
+    <title>Numérique et Sciences Informatique</title>
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../page.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .text {
+            flex: 1;
+            padding: 10px;
+        }
+        .image {
+            padding-right: 20px;
+            
+        }
+        img {
+            max-width: 100%;
+            height: 250px;
+            float: right; 
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header id="Header">
+        <div id="mainHeaderButtons">
+            <a href="../main.html"><button class="button">Page d'accueil</button></a><button class="button" style="background-color: #536C85;">NSI</button><a href="../SI/pageSI.html"><button class="button">SI</button></a><a href="../PC/pagePhysique.html" class="link-1"><button class="button">PC</button></a><a href="../credits.html"  class="link-1"><button class="button">FAQ</button></a>
+        </div>
+        <div id="mainHeaderTitle">
+            <h1 id="mainTitle">Numérique et Sciences Informatiques</h1>
+        </div>
+    </header>
+    <div id="content">
+        <br> <br>
+        <div class="container">
+            <div class="text">
+                <h2 class="question">Qu'est-ce que l'option NSI ?</h2>
+                <div class="answer">Aujourd’hui, le numérique, c’est de la culture générale, nécessaire pour votre vie personnelle comme professionnelle. Pour travailler dans le développement durable, la littérature, le cinéma ou la santé, c’est toujours bien de savoir ce qu’est un algorithme, un langage de programmation, une base de données. La spécialité NSI (pour "Numérique et Sciences Informatiques") est une option proposée en voie générale pour le baccalauréat. Cette spécialité a donc pour objectif de former les élèves aux domaines du numérique et de l'informatique. Cette dernière permet de comprendre les bases de la programmation, pour élaborer des logiciels par exemple, des sites internet, des applications pour smartphones, etc.</div>
             </div>
-            <div id="mainHeaderButtons">
-                <a href="../main.html"><button class="button">Page d'accueil</button></a>
-                <button class="button" style="background-color: #7B8EA5;">NSI</button>
-                <a href="../SI/pageSI.html"><button class="button">SI</button></a>
-                <a href="../PC/pagePhysique.html"><button class="button">PC</button></a>
-                <a href="../pagefaq.html"><button class="button">FAQ</button></a>
+            <div class="image">
+                <img src="img_salleclasse.png" alt="photo de la salle de nsi">
             </div>
-        </header>
-        <div id="content">
-            <br> <br>
-            <h2 class="question">Qu'est-ce que l'option NSI ?</h2>
-            <div class="answer">Aujourd’hui, le numérique, c’est de la culture générale, nécessaire pour votre vie personnelle comme professionnelle. Pour travailler dans le développement durable, la littérature, le cinéma ou la santé, c’est toujours bien de savoir ce qu’est un algorithme, un langage de programmation, une base de données. La spécialité NSI (pour "Numérique et Sciences Informatiques") est une option proposée en voie générale pour le baccalauréat. Cette spécialité a donc pour objectif de former les élèves aux domaines du numérique et de l'informatique. Cette dernière permet de comprendre les bases de la programmation, pour élaborer des logiciels par exemple, des sites internet, des applications pour smartphones, etc.</div>
-            <br><br>
+        </div>
+        
+        <br><br>
+  
+    <div class="container">
+        <div class="text">  
             <h2 class="question">Que fait-on en NSI ?</h2>
-            <div class="answer">En NSI, vous allez travailler en petits groupes sur des projets, des défis logiques à résoudre avec les langages de programmation les plus utilisés en informatique. Vous allez notamment étudier les thèmes suivants :<ul>
-                <li>Les algorithmes et structures de données : les élèves apprennent à concevoir des algorithmes efficaces pour résoudre des problèmes complexes, et à manipuler des structures de données telles que les listes, les arbres ou les graphes.</li>
-                <li>La programmation : les élèves sont initiés à différents langages de programmation tels que Python, Html, ou encore le langage C, et apprennent à concevoir des programmes informatiques.</li>
-                <li>Les réseaux : les élèves étudient le fonctionnement des réseaux informatiques, ainsi que les protocoles de communication utilisés sur Internet.</li>
-                <li>Les bases de données : les élèves découvrent comment stocker et manipuler des données dans une base de données.</li></ul></div>
+        <div class="answer">En NSI, vous allez travailler en petits groupes sur des projets, des défis logiques à résoudre avec les langages de programmation les plus utilisés en informatique. Vous allez notamment étudier les thèmes suivants :<ul>
+            <li>Les algorithmes et structures de données : les élèves apprennent à concevoir des algorithmes efficaces pour résoudre des problèmes complexes, et à manipuler des structures de données telles que les listes, les arbres ou les graphes.</li>
+            <li>La programmation : les élèves sont initiés à différents langages de programmation tels que Python, Html, ou encore le langage C, et apprennent à concevoir des programmes informatiques.</li>
+            <li>Les réseaux : les élèves étudient le fonctionnement des réseaux informatiques, ainsi que les protocoles de communication utilisés sur Internet.</li>
+            <li>Les bases de données : les élèves découvrent comment stocker et manipuler des données dans une base de données.</li></ul></div>
+            
+        </div>
+    <div class="image">
+        <img src="photo html.png" alt="photo code html">
+    </div>
+</div>
+        
             <br>
-            <h2 class="question">Pourquoi choisir cette spécialité ?</h2>
+            <div class="container">
+                <div class="text">  
+                     <h2 class="question">Pourquoi choisir cette spécialité ?</h2>
             <div class="answer">Choisir la spécialité NSI présente plusieurs avantages. Quand on code, on rate et on corrige ! Et c’est comme ça que vous travaillerez avec vos professeurs sur vos projets : c’est en faisant des erreurs qu’on apprend, et vous devrez améliorer vos programmes au fur et à mesure pour qu’ils vous obéissent au doigt et à l’œil. Vous allez par conséquent acquérir une certaine persévérance utile à l'avenir de vos études. Par ailleurs, cette option permet de développer des compétences dans un domaine en pleine expansion, offrant ainsi beaucoup d'opportunités professionnelles. Ensuite, les élèves peuvent acquérir des compétences en programmation, une compétence de plus en plus demandée dans de nombreux domaines. Enfin, la spécialité NSI permet également de développer des compétences en résolution de problèmes et en pensée logique, des compétences transférables à de nombreux autres domaines.</div>
-            <br><br>
-            <h2 class="question">Quelles sont les possibles débouchés après le BAC ?</h2>
+
+                </div>
+            <div class="image">
+                <img src="photo génial.png" alt="photo code javascript">
+            </div>
+        </div>
+                       <br><br>
+                       <div class="container">
+                        <div class="text">  
+                            <h2 class="question">Quelles sont les possibles débouchés après le BAC ?</h2>
             <div class="answer">Les débouchés après un bac avec la spécialité NSI sont nombreuses. Les élèves peuvent poursuivre des études supérieures en informatique ; en choisissant par exemple une licence en informatique ou un BUT, une école d'ingénieurs, ou une classe préparatoire, avec la nouvelle section MPI (Maths-Physique-Informatique).</div>
-            <br><br>
-            <h2 class="question">Quels métiers avec la NSI ?</h2>
+           
+                        </div>
+                    <div class="image">
+                        <img src="photo diplome.png" alt="photo code python">
+                    </div>
+                </div>
+             <br><br>
+             <div class="container">
+                <div class="text">  
+                     <h2 class="question">Quels métiers avec la NSI ?</h2>
             <div class="answer">Les métiers possibles après avoir étudié la spécialité NSI sont également nombreux. Les diplômés peuvent travailler comme développeurs informatiques, ingénieurs logiciels, experts en sécurité informatique, data scientists, ou encore administrateurs de systèmes et réseaux. Ils peuvent, au même titre, travailler dans d'autres milieux en couplant leur compétence informatique avec un autre domaine tels que le e-commerce, la finance, la santé, ou encore les jeux vidéo.</div>
-            <br><br>
-            <h2 class="question">Voilà pourquoi il faut choisir la spécialité du Numérique et des Sciences Informatiques.</h2>
+            
+                </div>
+            <div class="image">
+                <img src="admistrateur_systemes_et_reseaux.png" alt="photo diplome">
+            </div>
+        </div>
+           <br><br>
+           <div class="container">
+            <div class="text">  
+                <h2 class="question">Voilà pourquoi il faut choisir la spécialité du Numérique et des Sciences Informatiques.</h2>
             <div class="answer">En conclusion, choisir la spécialité NSI présente de nombreux avantages, tels que le développement de compétences en programmation et en résolution de problèmes, ainsi que de nombreuses opportunités professionnelles. Les diplômés de cette spécialité peuvent poursuivre des études supérieures en informatique ou trouver un emploi dans de nombreux domaines de l'industrie informatique.</div>
+            
+            </div>
+        <div class="image">
+            <img src=".jpg" alt="">
+        </div>
+    </div>
             <br>
         </div>
     </body>
-</html>
+    <script src="../script.js"></script>
+    </html>
