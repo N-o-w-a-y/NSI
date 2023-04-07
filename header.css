@@ -1,31 +1,42 @@
 #Header{
 	text-align: center;
-	background-color: #7B8EA5;
+	background-color: #536C85;
 	color: white;
-	font-family: "DejaVu Sans";
+	font-family: "Gilroy-B";
 	padding: 1px;
-	margin: -8px;
-	margin-top: -20px;
+	margin-top: -21px;
 }
 #mainHeaderTitle{
+	height: 100px;
+	line-height: 100px;
 	font-size: 170%;
+	margin-top: 75px;
 }
 #mainHeaderButtons{
-	margin: -3px;
+	min-width: 500px;
+	position: fixed;
+	margin: 0px;
+	width: 100%;
+}
+.shadow{
+	box-shadow: 0px 0px 15px black;
+}
+#mainTitle{
+	margin: 0px;
 }
 .button{
+	padding: 0px;
 	transition: .4s background-color;
 	width: 20%;
 	height: 75px;
-	margin: -3px;
 	border: none;
-	background-color: #6f7f93;
+	background-color: #415364;
 	color: white;
-	font-family:"DejaVu Sans";
+	font-family:"Gilroy-L";
 	font-weight: bold;
 	font-size: 200%;
 }
 .button:hover{
-	background-color:  #607183;
+	background-color:  #4A6279;
 	transition: .4s background-color;
 }
