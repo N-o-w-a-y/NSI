@@ -25,11 +25,6 @@ li
 	src: url('./Medium.ttf')  format('truetype');
 }
 
-.box{
-	background-color: #24292E;
-	/*background-color: #869bb4;*/
-	color: white;
-	padding: 10px;
 }
 .title{
 	font-family: 'Open-Sans1';
