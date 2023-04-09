@@ -54,7 +54,7 @@ body{
 	transition: .4s background-color;
 }
 .link, .link:visited{
-	color: #D6EBFF;
+	color: black;
 }
 p{
 	font-family: 'Gilroy-L';
