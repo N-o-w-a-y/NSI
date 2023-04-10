@@ -14,11 +14,10 @@ body{
 }
 
 .box{
-	background-color: #dae6f2;
-	color: black;
+	background-color: #536C85;
+	color: white;
 	padding: 10px;
 	text-align: justify;
-	max-height: 1000px;
 }
 .title{
 	font-family: 'Gilroy-B';
