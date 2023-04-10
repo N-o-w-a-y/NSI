@@ -13,14 +13,13 @@ body{
 	background-color: #dae6f2;
 }
 
-/*.box{
+.box{
 	background-color: #536C85;
 	color: white;
 	padding: 10px;
 	text-align: justify;
-	max-height: 1000px;
 }
-*/
+
 .title{
 	font-family: 'Gilroy-B';
 	font-size: 35px;
@@ -78,7 +77,6 @@ p{
     text-align:justify;
     margin-left:50px;
     margin-right:50px;
-    
 }
 .answer{
     font-size:115%;
