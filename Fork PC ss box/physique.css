@@ -1,6 +1,7 @@
 html
 {
-	font-family: 'DejaVu Sans';
+font-family: 'DejaVu Sans';
+font-size: 115%;
 }
 #Qu'est-ce que c'est ?
 {
@@ -8,6 +9,7 @@ html
 }
 img
 {
+
 	display: block;
 	width: 300px;
 }
@@ -71,4 +73,10 @@ li
     text-align:justify;
     margin-left:50px;
     margin-right:50px;
+}
+#divag
+{
+	font-family: 'DejaVu Sans';
+	font-size: 115%;
+
 }
