@@ -65,3 +65,10 @@ li
 	padding: 15px;
 	margin: -8px;
 }
+.question{
+    font-size:150%;
+    font-weight:bold;
+    text-align:justify;
+    margin-left:50px;
+    margin-right:50px;
+}
