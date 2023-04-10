@@ -13,9 +13,9 @@ body{
 	background-color: #dae6f2;
 }
 
-/*.box{
-	background-color: #536C85;
-	color: white;
+.box{
+	background-color: #dae6f2;
+	color: black;
 	padding: 10px;
 	text-align: justify;
 	max-height: 1000px;
@@ -78,7 +78,6 @@ p{
     text-align:justify;
     margin-left:50px;
     margin-right:50px;
-    
 }
 .answer{
     font-size:115%;
