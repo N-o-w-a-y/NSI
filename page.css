@@ -10,7 +10,7 @@ body{
 	min-width:1150px;
 	margin: 0px;
 	margin-top: 20px;
-	background-color: #dae6f2;
+	background-color:#dddddd; /*#dae6f2;*/
 }
 
 .box{
@@ -40,7 +40,7 @@ body{
 	font-family: 'Gilroy-L';
 	font-size: 25px;
 
-	background-color: #415364;
+	background-color:#aaaaaa; /*#415364;*/
 	color: white;
 
 	border: none;
@@ -49,7 +49,7 @@ body{
 	margin-top: 25px;
 }
 .button1:hover{
-	background-color: #475F76;
+	background-color:#aaaaaa; /*#475F76;*/
 	transition: .4s background-color;
 }
 .link, .link:visited{

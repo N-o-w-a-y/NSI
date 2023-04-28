@@ -1,6 +1,6 @@
 #Header{
 	text-align: center;
-	background-color: #536C85;
+	background-color:#bbbbbb; /*#536C85;*/
 	color: white;
 	font-family: "Gilroy-B";
 	padding: 1px;
@@ -17,6 +17,7 @@
 	position: fixed;
 	margin: 0px;
 	width: 100%;
+	background-color:#aaaaaa;
 }
 .shadow{
 	box-shadow: 0px 0px 15px black;
@@ -30,14 +31,14 @@
 	width: 20%;
 	height: 75px;
 	border: none;
-	background-color: #415364;
+	background-color:#aaaaaa /*#415364;*/
 	color: white;
 	font-family:"Gilroy-L";
 	font-weight: bold;
 	font-size: 200%;
 }
 .button:hover{
-	background-color:  #4A6279;
+	background-color:#aaaaaa  /*#4A6279;*/
 	transition: .4s background-color;
 }
 
