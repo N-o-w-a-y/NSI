@@ -1,7 +1,6 @@
 html
 {
-font-family: 'DejaVu Sans';
-font-size: 115%;
+	font-family: 'DejaVu Sans';
 }
 #Qu'est-ce que c'est ?
 {
@@ -9,7 +8,6 @@ font-size: 115%;
 }
 img
 {
-
 	display: block;
 	width: 300px;
 }
@@ -27,12 +25,16 @@ li
 	src: url('./Medium.ttf')  format('truetype');
 }
 
+.box{
+	background-color: #869bb4;
+	color: white;
+	padding: 10px;
 }
 .title{
 	font-family: 'Open-Sans1';
 	font-size: 30px;
 
-	background-color: #dae6f2;
+	background-color: #76879c;
 	padding: 10px;
 	margin: -10px;
 	margin-bottom: 0px;
@@ -66,16 +68,4 @@ li
 
 	padding: 15px;
 	margin: -8px;
-}
-.question{
-    font-size:150%;
-    font-weight:bold;
-    text-align:justify;
-    margin-left:50px;
-    margin-right:50px;
-}
-div
-{
-	margin-left: 50px;
-	margin-right: 50px;
 }
