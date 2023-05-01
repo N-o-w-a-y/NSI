@@ -111,28 +111,33 @@ img {
   height: 300px;
   margin-top: 1px;
   margin-left: 35px;
+  margin-right: -40px;
 }
 
 #i2{
-	width: 294px;
-  height: 300px;
-  margin-left: 35px;
-  margin-top: 10px;
-
-}
-#i3{
 	width: 396px;
   height: 300px;
   margin-left: 35px;
   margin-top: 120px;
-  margin-right: -300px;
+  margin-right: -40px;
+
+}
+#i3{
+	width: 250px;
+  height:202px;
+  margin-left: 35px;
+  margin-top: 120px;
+  margin-right: -40px;
 }
 
 #i4{
-  height: 300px;
-  width: 498px;
-  margin-bottom: 25px;
-  margin-left: 35px;
+  height: 244px;
+  width: 247px;
+}
+
+#i5{
+  height: 195px;
+  width: 244px;
 }
 
 #cookieConsent {
