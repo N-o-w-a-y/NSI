@@ -100,45 +100,9 @@ p{
             
 }
 img {
-     max-width: 100%;
      height: 350px;
-     float: right; 
+     float: right;
      margin-top: 100px;
-}
-#i1{
-	width: 396px;
-  height: 300px;
-  margin-top: 1px;
-  margin-left: 35px;
-  margin-right: -40px;
-}
-
-#i2{
-	width: 396px;
-  height: 300px;
-  margin-left: 35px;
-  margin-top: 120px;
-  margin-right: -40px;
-
-}
-#i3{
-	width: 250px;
-  height:202px;
-  margin-left: 35px;
-  margin-top: 120px;
-  margin-right: -40px;
-}
-
-#i4{
-  height: 244px;
-  width: 247px;
-  margin-right: -40px;
-}
-
-#i5{
-  height: 360px;
-  width: 543px;
-  margin-right: -40px;
 }
 
 #cookieConsent {
