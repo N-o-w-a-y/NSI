@@ -1,9 +1,6 @@
 html
 {
 font-family: 'DejaVu Sans';
-/*font-size: 115%;*/
-div:not([name="Header"])s
-    font-size: 115%;
 }
 #Qu'est-ce que c'est ?
 {
@@ -17,7 +14,7 @@ img
 }
 li
 {
-	font-size: 115%;
+	/*font-size: 115%;*/
 	width: 800px;
 	text-align: justify;
 }
@@ -79,10 +76,12 @@ li
 }
 div
 {
-	margin-left: 50px;
-	margin-right: 50px;
+	
 }
-a
+.dep
 {
-
+	margin-left:100px;
+    margin-right:100px;
+    text-align:justify;
+    font-size:115%;
 }
