@@ -133,11 +133,13 @@ img {
 #i4{
   height: 244px;
   width: 247px;
+  margin-right: -40px;
 }
 
 #i5{
-  height: 195px;
-  width: 244px;
+  height: 360px;
+  width: 543px;
+  margin-right: -40px;
 }
 
 #cookieConsent {
