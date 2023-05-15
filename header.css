@@ -1,6 +1,6 @@
 #Header{
 	text-align: center;
-	background-color:#bbbbbb; /*#536C85;*/
+	background-color:#536C85;
 	color: white;
 	font-family: "Gilroy-B";
 	padding: 1px;
@@ -31,7 +31,7 @@
 	width: 20%;
 	height: 75px;
 	border: none;
-	background-color:#aaaaaa; /*#415364;*/
+	background-color:#415364;
 	color: white;
 	font-family:"Gilroy-L";
 	font-weight: bold;
@@ -39,12 +39,12 @@
 }
 .button:hover{
 	cursor: pointer;
-	background-color:#B1B1B1;  /*#4A6279;*/
+	background-color:#4A6279;
 }
 
 #creditBox{
 	box-shadow: 0px 0px 15px black;
-	background-color: #bbbbbb;
+	background-color: #dae6f2;
 	padding: 10px;
 	justify-content: center;
 	display: block;

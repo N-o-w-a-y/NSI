@@ -10,7 +10,7 @@ body{
 	min-width:1150px;
 	margin: 0px;
 	margin-top: 20px;
-	background-color:#dddddd; /*#dae6f2;*/
+	background-color:#dae6f2;
 }
 
 .box{
@@ -42,7 +42,7 @@ body{
 	font-family: 'Gilroy-L';
 	font-size: 25px;
 
-	background-color:#aaaaaa; /*#415364;*/
+	background-color:#415364;
 	color: white;
 
 	border: none;
@@ -51,14 +51,13 @@ body{
 	margin-top: 25px;
 }
 .button1:hover{
-	background-color:#bbbbbb; /*#475F76;*/
+	background-color:#475F76;
 	transition: .4s background-color;
 }
 .link, .link:visited{
 	color: blue;
 }
 p{
-	font-family: 'Gilroy-L';
 	font-size: 170%;
 	line-height: 40px;
 
