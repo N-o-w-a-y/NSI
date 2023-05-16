@@ -73,7 +73,7 @@ p{
     margin-bottom:-8px;
 }
 .question{
-    font-size:180%;
+    font-size:160%;
     font-weight:bold;
     text-align:justify;
     margin-left:50px;
@@ -81,7 +81,7 @@ p{
 
 }
 .answer{
-    font-size:145%;
+    font-size:125%;
     text-align: justify;
     margin-left:100px;
     margin-right:100px;
